@@ -1,0 +1,298 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1200px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 240px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 160px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+
+  .row,
+  .navbar {
+    flex-direction: column;
+  }
+}
+
+.navbar {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  background-color: #000;
+}
+
+.searchbar-container {
+  display: flex;
+  margin: 10px 40px;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.searchbar {
+  margin-right: 10px;
+  padding: 20px;
+
+}
+
+.searchbar-btn button {
+  background-color: #0a0a0a;
+  border: none;
+  border-radius: 10px;
+  height: 42px;
+  color: white;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: auto;
+  box-shadow: #e8ff19 0px 0px 1px 2px;
+}
+
+.searchbar-btn button:hover {
+  background-color: #e8ff19;
+  color: #0c0c0c;
+}
+
+.searchbar input {
+  padding: 8px;
+  margin-right: 15px;
+  border: none;
+  border-radius: 14px;
+  background-color: #080808;
+  color: #f0f331;
+  font-size: 18px;
+  text-align: center;
+  box-shadow: 0px 0px 2px 2px;
+
+}
+
+.pokedex-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  color: rgb(15, 1, 48);
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+
+}
+
+
+.pokedex-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0px 20px;
+  color: rgb(15, 1, 48);
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+
+.pokemon-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 20px 20px 20px;
+  padding: 20px;
+  border-radius: 20px;
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/986/198/362/pokemon-pokemon-go-pokemon-go-team-instinct-wallpaper-preview.jpg);
+  color: rgb(7, 7, 7);
+  box-shadow: 4px 4px 4px 4px;
+}
+
+.card-top h3 {
+  text-transform: capitalize;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+
+.pokemon-image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #c6c7b2b6;
+  color: rgb(7, 7, 7);
+  box-shadow: 0px 0px 4px 3px;
+
+}
+
+.pokemon-card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 10px;
+  background-color: #c6c7b2b6;
+  color: rgb(14, 14, 13);
+  box-shadow: 0px 0px 2px 2px;
+  width: 120px;
+  height: 120px;
+  font-size: 14px;
+
+}
+
+.pokemon-type {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: #080808;
+  color: rgb(245, 237, 237);
+  box-shadow: 0px 2px 2px;
+  text-transform: capitalize;
+}
+
+.pokemon-type-text {
+  text-transform: capitalize;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(252, 250, 250);
+}
+
+.pokemon-heart-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 20px;
+  background-color: #f7f2f2;
+}
+
+.pokemon-heart-btn:hover {
+  background-color: #e8ff19;
+  color: #0c0c0c;
+}
+
+.pagination-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 50px;
+  color: #e8ff19;
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  width: 100%;
+}
+
+
+.pagination-btn {
+  text-align: center;
+  margin-right: 10px;
+  padding: 5px 23px 5px 10px;
+  border-radius: 15px;
+  background-color: #ebe71d;
+  margin: 10px;
+}
+
+.pokedex-loading {
+  color: #fff;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+
+}
+
+.not-found-text {
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  color: #e8ff19;
+}
+
+body {
+  background-color: #080c46;
+  margin: 0;
+}
+
+
+.App {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
